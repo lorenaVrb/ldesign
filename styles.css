@@ -1,0 +1,99 @@
+body {
+  background-color: #916BBF;
+  font-family: 'Annie Use Your Telescope';
+}
+
+h2 {
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  align-items: baseline;
+  color: #916BBF;
+  background-color: #160F30;
+}
+
+.navbar-brand {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.logo {
+  width: 75%;
+}
+
+.navbar-nav {
+  font-size: 2vw;
+}
+
+.navbar-item {
+  margin-top: 25%;
+}
+
+/* Homepage */
+.homepage {
+  cursor:grabbing;
+}
+.title {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 15%;
+  font-style: italic;
+  font-size: 5vw;
+  font-weight: bold;
+  color: #160F30;
+}
+
+.name {
+  font-size: 10vw;
+}
+
+.hello {
+  width: 22%;
+  margin-left: 60%;
+  margin-top: 13%;
+
+}
+
+@keyframes move {
+  to{margin-top: 60%;}
+}
+/* About Me */
+.aboutMe {
+  margin-top: 25%;
+  margin-left: 10%;
+  height: 45vw;
+  font-size: 2vw;
+  text-align: center;
+  background-image: url("purple.jpg");
+  background-size: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px 8px #916BBF inset;
+  line-height: 3.5vw;
+}
+.about-text{
+margin: 25%;
+color: #916BBF;
+}
+
+/* Contact */
+.contact {
+  font-size: 2vw;
+  margin: 25% 20%;
+  text-align: center;
+}
+
+.icons {
+  margin-top: 10%;
+  font-size: 3vw;
+}
+
+.mid {
+  margin: 0 25%;
+}
+
